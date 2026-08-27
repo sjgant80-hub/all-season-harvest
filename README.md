@@ -178,6 +178,34 @@ somewhere when the sun left, and it went into the wind.
 
 ---
 
+## §9 · THE ELASTIC BUS (CLHES-lite — the fold from the Closed-Loop Harmonic Energy System)
+
+```
+the sibling publication (clhes-harmonic-energy-system) contributes three things at THIS scale —
+and honestly NOT its resonant store:
+
+1. THE WIND TAP IS CONTROLLED DAMPING. extracting from a gusty small turbine without stalling
+   it is exactly CLHES's control law: the load is a variable damping applied to an oscillator
+   (the rotor). the controller modulates extraction to ride the gust, never fight it — that IS
+   wind MPPT, named properly.
+
+2. THE ELASTIC BUS. a SUPERCAPACITOR bank between the rungs and the battery absorbs gust spikes
+   and returns them on demand — ragged wind in, smooth charge out. less battery stress, less
+   inverter violence, more of the gust captured. (this is the CLHES resonant store DEGENERATED
+   to what earns its keep at 50–400 W: at cabin scale a flywheel's idle losses would eat the
+   entire winter trickle budget, and a high-Q LC tank costs more than it recovers. supercaps +
+   synchronous rectification capture most of the benefit with none of the machinery. at grid /
+   motor-drive scale, graduate to the full CLHES store.)
+
+3. REGEN RETURN. any motor-ish load (pump, tools) routes back-EMF into the elastic bus instead
+   of heat — CLHES's recovery path, straight in.
+
+honest wire: none of this adds energy. it reduces LOSSES between harvest and battery — capture
+more of the gust, stress the chemistry less, recover what motors give back. conservation holds.
+```
+
+---
+
 ## §∎ · ONE LINE
 
 **A single small controller that harvests FOUR rungs of one energy field into one battery —
@@ -185,7 +213,7 @@ solar PV for the light rung (full sun to diffuse cloud), a small wind turbine fo
 rung (50–400 W, strongest at night/cloud/winter — the exact hours solar dies), and the panel's
 own night-time radiative cooling plus ambient RF for the trickle rungs that keep the battery
 alive and micro-loads running in dead calm dark — all conditioned and summed by one brain that
-leans on whichever rung is live. The key is anti-correlation: the weather that blocks your sun
+leans on whichever rung is live, through a supercap elastic bus that smooths gusts into clean charge. The key is anti-correlation: the weather that blocks your sun
 IS the atmosphere moving, so the cloud that kills your panel is pushed by the wind that fills
 your battery — when the top rung drops, the side rung rises, and the setup stays at real
 bulb-and-laptop power every season. It isn't free energy (every rung traces to the sun,
